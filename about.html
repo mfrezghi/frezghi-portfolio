@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="slides.css">
+  <link rel="stylesheet" href="activity-slides.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul class="nav">
+        <!-- <li><a href = "#actnav">Activities</a></li> -->
+        <li><a href = "#skillnav">Skills</a></li>
+        <li><a href = "#ednav">Experience</a></li>
+        <li class="current"><a href = "#intronav">About</a></li>
+
+        <!-- <li><a href = "experience.html">Activities</a></li>
+				<li><a href = "contact.html">Contact</a></li> -->
+			</ul>
+		</nav>
+	</header>
+
+
+  <!-- intro -->
+    <div id='intronav' class="intro">
+      <div class="personal">
+        <img src="imgs/frezghi.jpg" alt="Medhanie" width="400px" height="auto">
+      </div>
+      <div class="personal">
+          <h1>MEDHANIE FREZGHI</h1>
+          <h2>UX Design & Data Analysis</h2> 
+          <p>Hello! I'm Med, a student at the University of Michigan School of Information. 
+            I am aspiring to become a user experience and interaction designer. When I'm not studying or working, I enjoy ultimate frisbee competitions, and travel.</p>
+      </div>
+
+    </div>
+
+  <!-- education -->
+  
+    <div id='ednav' class="education">
+      <div id='h'><h1>Education & Experience</h1></div>
+      <div class='graduation'>
+        <div class='gradimg'>
+          <img src='imgs\pngfind.com-graduation-cap-png-596564.png' alt='graduation cap' width='50' height='auto'>
+        </div>
+        <div id='graduation'>  
+          <p>Bachelor of Science in Information, May 2023</p>
+        </div>
+      </div>
+
+      <div class='graduation'>
+        <div class='gradimg'>
+          <img src='imgs\pngfind.com-location-icon-png-1829110.png' alt='location' width='30' height='auto'>
+        </div>
+        <div class='location'> 
+          <p>Ann Arbor, MI</p>
+        </div>
+      </div>
+      
+
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="words">
+            <div id=engin>
+              <h1>College of Engineering</h1>
+              <h2>Desktop Support Specialist</h2>
+              <p>My responsibilities within the college of engineering include: Providing support to administrators, answering IT questions, and servicing computer hardware and software.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="words">
+            <div id=tele>
+              <h1>Michigan Telefund</h1>
+              <h2>Student Fundraiser</h2>
+              <p>Within Michigan Telefund, I learned the soft skills required to negotiate with U of M alumni in order to secure private support for Michigan students. This in turn led me to generate over $25,000 in private support, going towards scholarship, food banks, and emergency COVID-19 needs.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="words">
+            <div id=amazon>
+              <h1>Amazon Fulfilment Center</h1>
+              <h2>Amazon Warehouse</h2>
+              <p>I served as a “problem solver” within the Amazon warehouse after exhibiting strong attention to detail. My job was to troubleshoot problems that an associate might encounter, inlucing printing ASIN labels, utilizing Excel to track and record defective items, and mentoring new associates in packaging and stowing.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="words">
+            <div id=cortez>
+              <h1>Cortez Garage</h1>
+              <h2>Junior Mechanic</h2>
+              <p>Under the supervision of my manager, I offered inspections and repairs on vehicles, and advice to customers regarding their vehicles. Tasks included: Ordering new parts as requested, rotating and realigning tires, changing fluids, and electrical work for internal electronics and interfaces.</p>
+            </div>
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <!-- link script.js -->
+    </div>
+    
+  <!-- skills -->
+  
+<div id='skillnav' class='skillshover'>
+  <!-- <div id='hskill'><h1>Skills & Software</h1></div> -->
+  <div class='skillscontainer'>
+    <div id='ae' class="skills">
+      <img class='center' src='imgs\icons\ae.png' alt='aftereffectslogo' width='100' height='auto'>
+    </div>
+    <div id='ps'class="skills">
+      <img class='center' src='imgs\icons\ps.png' alt='photoshoplogo' width='100' height='auto'>
+    </div> 
+    <div id='pr' class="skills">
+      <img class='center' src='imgs\icons\pr.png' alt='premiereprologo' width='98' height='auto'>
+    </div> 
+    <div id='js' class="skills">  
+      <img class='center' src='imgs\icons\javascript.png' alt='javascriptlogo' width='86' height='auto'>
+    </div>
+    <div id='sql' class="skills">
+      <img class='center' src='imgs\icons\sql.png' alt='sqlogo' width='97' height='auto'>
+    </div>
+  </div> 
+</div>
+
+    <!-- activities -->
+
+    <!-- <div id='actnav' class="activities">
+      <div class="slideshow-container2">
+        <div class="actSlides fade">
+          <div class="words">
+            <div id=robo>
+              <h1>Michigan Robotic Submarine</h1>
+              <h2>Website Manager</h2>
+              <p>Michigan Robotic Submarine is a student-led engineering team, working together to design and build an autonomous robotic submarine for the annual RoboSub competition in San Diego, CA. In preperation for the 2021 competition, I was tasked to developed the robosub website to display our teams aquatic achievements which placed 4th out of 50 teams in website design and usability.
+            </div>
+          </div>
+        </div>
+        
+        <div class="actSlides fade">
+          <div class="words">
+            <div id=boxing>
+              <h1>Michigan Boxing Team</h1>
+              <h2>Conditioning Leader</h2>
+              <p>I recently begun my ametuer boxing career on the Michigan boxing team this past year, where I  enjoy coaching and leading fellow students through sparring  and conditioning.</p>
+            </div>
+          </div>
+        </div>
+
+      
+      <script src="activity-slides.js"></script>
+      <a class="prev2" onclick="plusSlides_(-1)">&#10094;</a>
+      <a class="next2" onclick="plusSlides_(1)">&#10095;</a>
+      </div>
+      
+      
+      <div style="text-align:center">
+      <span class="dot2" onclick="currentSlide_(1)"></span>
+      <span class="dot2" onclick="currentSlide_(2)"></span>
+      <span class="dot2" onclick="currentSlide_(3)"></span>
+        <span class="dot2" onclick="currentSlide_(4)"></span>
+      </div>
+    </div>
+
+</body>
+
+</html>
+ -->

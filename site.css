@@ -1,0 +1,153 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(78, 78, 78);
+  margin: 0;
+  line-height: 1.5;;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+.intro{
+  display:flex;
+  vertical-align: middle;
+  align-items: center;
+
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.personal{
+  padding: 0 1rem;
+  margin: 1rem;
+  vertical-align: middle;
+  text-align: center;
+  width:auto;
+}
+
+.graduation{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.gradimg{
+  padding: 1rem;
+  
+}
+
+.education{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+  overflow-x: hidden;
+  height: 100vh;
+  color: white;
+}
+
+#h{
+  border-bottom: 2px solid white;
+  margin-top: 3rem;
+}
+
+.skillscontainer{
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+  height: 100vh;
+  color: white;
+}
+
+.skills{
+  flex:1;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.center{
+  /* make the image be at the center of the page */
+  padding-top: 50vh;
+  /* make the image stay at the center of the page */
+}
+
+#ae:hover{
+  background-color: #3FA7D6;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+}
+#ae.skills h2{
+  color: black;
+ 
+}
+#ps:hover{
+  background-color: #3A86FF;
+  flex:1;
+}
+
+#pr:hover{
+  background-color: #8338EC;
+  flex:1;
+}
+
+#js:hover{
+  background-color: #3A405A;
+  flex:1;
+}
+
+#sql:hover{
+  background-color: #EFECCA;
+  flex:1;
+}
+
+/* Activities */
+.activities{
+
+  height:100vh;
+  background-color: steelblue;
+  color: white;
+}
+
